@@ -7,7 +7,7 @@
     <p>Recuerda terminar con signo de interrogación</p>
     <div v-if="isValidQuestion">
       <h2>{{ question }}</h2>
-      <h1>{{ answer ? "Si" : "No" }}</h1>
+      <h1>{{ answer === "yes" ? "Si!" : "No!" }}</h1>
     </div>
   </div>
 </template>
